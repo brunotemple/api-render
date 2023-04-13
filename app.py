@@ -1,7 +1,7 @@
 from flask import Flask
 import json
 import time
-from lib.pack import pack_fn
+from pack import pack_fn
 
 app = Flask(__name__)
 
